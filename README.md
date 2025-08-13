@@ -27,3 +27,20 @@ It leverages state-of-the-art **transformers** for training and provides an inte
 git clone https://github.com/yourusername/multilingual-sentiment-analysis.git
 cd multilingual-sentiment-analysis
 pip install -r requirements.txt
+
+
+Usage
+Run training notebook to fine-tune the model (notebooks/part_a_training.ipynb)
+
+Deploy with Gradio app (notebooks/part_b_gradio_deployment.ipynb)
+
+Results
+Achieved around 74% accuracy on test data
+
+Confusion matrix and classification reports included in notebooks
+
+Demo
+Try the live demo on Google Colab with Gradio [Insert link if public]
+
+License
+MIT License
